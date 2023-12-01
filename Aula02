@@ -1,0 +1,22 @@
+cd C:\Users\felip\OneDrive\Documentos\NetBeansProjects\Aula02; "JAVA_HOME=C:\\Program Files\\Java\\jdk-20" cmd /c "\"C:\\Program Files\\NetBeans-17\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.aula02.Aula02 \"-Dexec.executable=C:\\Program Files\\Java\\jdk-20\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-17\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+------------------------< com.mycompany:Aula02 >------------------------
+Building Aula02 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ Aula02 ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\felip\OneDrive\Documentos\NetBeansProjects\Aula02\src\main\resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ Aula02 ---
+Changes detected - recompiling the module!
+Compiling 2 source files to C:\Users\felip\OneDrive\Documentos\NetBeansProjects\Aula02\target\classes
+
+--- exec-maven-plugin:3.1.0:exec (default-cli) @ Aula02 ---
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  3.137 s
+Finished at: 2023-11-30T17:23:59-03:00
+------------------------------------------------------------------------
